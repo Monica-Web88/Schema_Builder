@@ -16,7 +16,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Schema Forge",
+    title="Schema Builder",
     description="A hosted authoring platform that turns JSON schemas into live, runtime-rendered UIs.",
     version="1.0.0",
     lifespan=lifespan,

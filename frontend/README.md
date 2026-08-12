@@ -1,4 +1,4 @@
-# Schema Forge — Frontend
+# Schema Builder — Frontend
 
 React + TypeScript app with two halves that share one data shape
 (`FieldSchema[]`): an **authoring canvas** (build a form) and a

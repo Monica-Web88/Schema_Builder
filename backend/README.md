@@ -1,4 +1,4 @@
-# Schema Forge — Backend
+# Schema Builder — Backend
 
 FastAPI service that stores versioned UI schemas and serves them over
 both REST and GraphQL, with JWT auth and role-based access control.
