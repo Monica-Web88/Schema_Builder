@@ -6,7 +6,7 @@ validated UI from a JSON schema at runtime — no redeploy, no
 per-form code.
 
 Built as a demonstration of platform-level frontend architecture:
-the deliverable isn't a form, it's the *system that generates
+This is a *system that generates
 forms* — schema authoring, versioning, RBAC, and dual REST/GraphQL
 APIs.
 
