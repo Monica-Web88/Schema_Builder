@@ -69,7 +69,7 @@ export default function App() {
     return (
       <div className="app-shell centered">
         <header>
-          <h1>Schema Forge</h1>
+          <h1>Schema Builder</h1>
           <p className="tagline">Author a schema once. Render it anywhere, forever.</p>
         </header>
         <Login
