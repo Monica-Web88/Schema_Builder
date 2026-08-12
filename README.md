@@ -1,6 +1,6 @@
-# Schema Forge
+# Schema Builder
 
-A hosted authoring platform: non-technical users design a form or
+A hosted authoring platform: users can design a form or
 admin screen visually, and the system generates a live, fully
 validated UI from a JSON schema at runtime — no redeploy, no
 per-form code.
@@ -39,13 +39,12 @@ Open `http://localhost:5173`, register an account (pick role
 `author`), and build a form. Switch to "Live Preview" to see it
 render — and submit — for real, validated server-side.
 
-## What it demonstrates, and why it maps to a lead
-front-end/platform + Identity role
+## Schema Builder Functionalities
 
-- **Architectural thinking, not component-building.** The core
+
+- **Schema Design** The core
   artifact is a schema, not a page — the same `FieldSchema[]` drives
-  both the authoring canvas and the runtime renderer, so there's no
-  "design it, then separately implement it" gap.
+  both the authoring canvas and the runtime renderer.
 - **Microservices / API design (REST *and* GraphQL).** Both surfaces
   read the same underlying data so they can't drift; each is a
   deliberate choice for a different consumer (internal admin CRUD vs.
