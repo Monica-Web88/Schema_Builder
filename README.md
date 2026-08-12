@@ -1,6 +1,6 @@
 # Schema Builder
 
-A hosted authoring platform: users can design a form or
+A Schema Building platform: users can design a form or
 admin screen visually, and the system generates a live, fully
 validated UI from a JSON schema at runtime — no redeploy, no
 per-form code.
