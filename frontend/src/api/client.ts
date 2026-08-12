@@ -1,7 +1,7 @@
 import { SchemaDefinition, FieldSchema } from "../types/schema";
 
 // In dev, Vite proxies /api -> http://localhost:8000 (see vite.config.ts).
-const BASE = "/api";
+const BASE = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}` : "/api";
 
 let authToken: string | null = null;
 
